@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
+  float a,b;
+  printf("Enter A : ");
+  scanf("%f",&a);
+  printf("Enter B : ");
+  scanf("%f",&b);
+  printf("%f + %f = %f",a,b,a+b);
   return 0;
 }
